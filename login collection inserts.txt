@@ -1,0 +1,513 @@
+db.logins.insertOne({
+	email:"emily.johnson@email.com",
+	password:"emily",
+	role:"client"
+});
+
+db.logins.insertMany([
+  {
+    email: "benjamin.smith@email.com",
+    password: "benjamin",
+    role: "client"
+  },
+  {
+    email: "sophia.brown@email.com",
+    password: "sophia",
+    role: "client"
+  },
+  {
+    email: "christopher.davis@email.com",
+    password: "christopher",
+    role: "client"
+  },
+  {
+    email: "mia.wilson@email.com",
+    password: "mia",
+    role: "client"
+  },
+  {
+    email: "daniel.jones@email.com",
+    password: "daniel",
+    role: "client"
+  },
+  {
+    email: "abigail.anderson@email.com",
+    password: "abigail",
+    role: "client"
+  },
+  {
+    email: "william.martinez@email.com",
+    password: "william",
+    role: "client"
+  },
+  {
+    email: "olivia.clark@email.com",
+    password: "olivia",
+    role: "client"
+  },
+  {
+    email: "james.taylor@email.com",
+    password: "james",
+    role: "client"
+  },
+  {
+    email: "ava.moore@email.com",
+    password: "ava",
+    role: "client"
+  },
+  {
+    email: "john.jackson@email.com",
+    password: "john",
+    role: "client"
+  },
+  {
+    email: "emma.harris@email.com",
+    password: "emma",
+    role: "client"
+  },
+  {
+    email: "ethan.martin@email.com",
+    password: "ethan",
+    role: "client"
+  },
+  {
+    email: "isabella.walker@email.com",
+    password: "isabella",
+    role: "client"
+  },
+  {
+    email: "michael.white@email.com",
+    password: "michael",
+    role: "client"
+  },
+  {
+    email: "harper.thomas@email.com",
+    password: "harper",
+    role: "client"
+  },
+  {
+    email: "samuel.nelson@email.com",
+    password: "samuel",
+    role: "client"
+  },
+  {
+    email: "grace.carter@email.com",
+    password: "grace",
+    role: "client"
+  },
+  {
+    email: "henry.wilson@email.com",
+    password: "henry",
+    role: "client"
+  },
+  {
+    email: "ella.foster@email.com",
+    password: "ella",
+    role: "client"
+  },
+  {
+    email: "joseph.mitchell@email.com",
+    password: "joseph",
+    role: "client"
+  },
+  {
+    email: "avery.wright@email.com",
+    password: "avery",
+    role: "client"
+  },
+  {
+    email: "lily.anderson@email.com",
+    password: "lily",
+    role: "client"
+  },
+  {
+    email: "andrew.martinez@email.com",
+    password: "andrew",
+    role: "client"
+  },
+  {
+    email: "chloe.green@email.com",
+    password: "chloe",
+    role: "client"
+  },
+  {
+    email: "matthew.turner@email.com",
+    password: "matthew",
+    role: "client"
+  },
+  {
+    email: "sofia.allen@email.com",
+    password: "sofia",
+    role: "client"
+  },
+  {
+    email: "oliver.scott@email.com",
+    password: "oliver",
+    role: "client"
+  },
+  {
+    email: "scarlett.walker@email.com",
+    password: "scarlett",
+    role: "client"
+  },
+  {
+    email: "lucy.foster@email.com",
+    password: "lucy",
+    role: "client"
+  },
+  {
+    email: "amelia.hayes@email.com",
+    password: "amelia",
+    role: "client"
+  },
+  {
+    email: "alexander.parker@email.com",
+    password: "alexander",
+    role: "client"
+  },
+  {
+    email: "charlotte.smith@email.com",
+    password: "charlotte",
+    role: "client"
+  },
+  {
+    email: "noah.baker@email.com",
+    password: "noah",
+    role: "client"
+  },
+  {
+    email: "jackson.harris@email.com",
+    password: "jackson",
+    role: "client"
+  },
+  {
+    email: "daniel.lewis@email.com",
+    password: "daniel",
+    role: "client"
+  },
+  {
+    email: "sophia.taylor@email.com",
+    password: "sophia",
+    role: "client"
+  },
+  {
+    email: "james.clark@email.com",
+    password: "james",
+    role: "client"
+  },
+  {
+    email: "emily.rivera@email.com",
+    password: "emily",
+    role: "client"
+  },
+  {
+    email: "benjamin.young@email.com",
+    password: "benjamin",
+    role: "client"
+  },
+  {
+    email: "ava.lewis@email.com",
+    password: "ava",
+    role: "client"
+  },
+  {
+    email: "william.smith@email.com",
+    password: "william",
+    role: "client"
+  },
+  {
+    email: "mia.king@email.com",
+    password: "mia",
+    role: "client"
+  },
+  {
+    email: "jackson.anderson@email.com",
+    password: "jackson",
+    role: "client"
+  },
+  {
+    email: "sophia.martin@email.com",
+    password: "sophia",
+    role: "client"
+  },
+  {
+    email: "samuel.wright@email.com",
+    password: "samuel",
+    role: "client"
+  },
+  {
+    email: "lily.foster@email.com",
+    password: "lily",
+    role: "client"
+  },
+  {
+    email: "ethan.allen@email.com",
+    password: "ethan",
+    role: "client"
+  },
+  {
+    email: "grace.scott@email.com",
+    password: "grace",
+    role: "client"
+  },
+  {
+    email: "benjamin.baker@email.com",
+    password: "benjamin",
+    role: "client"
+  },
+  {
+    email: "olivia.harris@email.com",
+    password: "olivia",
+    role: "client"
+  },
+  {
+    email: "andrew.walker@email.com",
+    password: "andrew",
+    role: "client"
+  },
+  {
+    email: "chloe.nelson@email.com",
+    password: "chloe",
+    role: "client"
+  },
+  {
+    email: "matthew.hayes@email.com",
+    password: "matthew",
+    role: "client"
+  },
+  {
+    email: "sofia.clark@email.com",
+    password: "sofia",
+    role: "client"
+  },
+  {
+    email: "samuel.moore@email.com",
+    password: "samuel",
+    role: "client"
+  },
+  {
+    email: "lily.thomas@email.com",
+    password: "lily",
+    role: "client"
+  },
+  {
+    email: "ethan.nelson@email.com",
+    password: "ethan",
+    role: "client"
+  },
+  {
+    email: "grace.harris@email.com",
+    password: "grace",
+    role: "client"
+  },
+  {
+    email: "benjamin.walker@email.com",
+    password: "benjamin",
+    role: "client"
+  },
+  {
+    email: "ava.scott@email.com",
+    password: "ava",
+    role: "client"
+  },
+  {
+    email: "noah.turner@email.com",
+    password: "noah",
+    role: "client"
+  },
+  {
+    email: "mia.jackson@email.com",
+    password: "mia",
+    role: "client"
+  },
+  {
+    email: "jackson.wright@email.com",
+    password: "jackson",
+    role: "client"
+  },
+  {
+    email: "sofia.taylor@email.com",
+    password: "sofia",
+    role: "client"
+  },
+  {
+    email: "daniel.foster@email.com",
+    password: "daniel",
+    role: "client"
+  },
+  {
+    email: "ava.walker@email.com",
+    password: "ava",
+    role: "client"
+  },
+  {
+    email: "benjamin.smith@email.com",
+    password: "benjamin",
+    role: "client"
+  },
+  {
+    email: "mia.moore@email.com",
+    password: "mia",
+    role: "client"
+  },
+  {
+    email: "michael.turner@email.com",
+    password: "michael",
+    role: "client"
+  },
+  {
+    email: "harper.anderson@email.com",
+    password: "harper",
+    role: "client"
+  },
+  {
+    email: "alexander.walker@email.com",
+    password: "alexander",
+    role: "client"
+  },
+  {
+    email: "scarlett.nelson@email.com",
+    password: "scarlett",
+    role: "client"
+  },
+  {
+    email: "christopher.hayes@email.com",
+    password: "christopher",
+    role: "client"
+  },
+  {
+    email: "emily.clark@email.com",
+    password: "emily",
+    role: "client"
+  },
+  {
+    email: "ethan.davis@email.com",
+    password: "ethan",
+    role: "client"
+  },
+  {
+    email: "amelia.taylor@email.com",
+    password: "amelia",
+    role: "client"
+  },
+  {
+    email: "samuel.smith@email.com",
+    password: "samuel",
+    role: "client"
+  },
+  {
+    email: "lily.baker@email.com",
+    password: "lily",
+    role: "client"
+  },
+  {
+    email: "william.martin@email.com",
+    password: "william",
+    role: "client"
+  },
+  {
+    email: "grace.king@email.com",
+    password: "grace",
+    role: "client"
+  },
+  {
+    email: "oliver.jackson@email.com",
+    password: "oliver",
+    role: "client"
+  },
+  {
+    email: "emma.harris@email.com",
+    password: "emma",
+    role: "client"
+  },
+  {
+    email: "joseph.baker@email.com",
+    password: "joseph",
+    role: "client"
+  },
+  {
+    email: "harper.hayes@email.com",
+    password: "harper",
+    role: "client"
+  },
+  {
+    email: "benjamin.taylor@email.com",
+    password: "benjamin",
+    role: "client"
+  },
+  {
+    email: "sophia.davis@email.com",
+    password: "sophia",
+    role: "client"
+  },
+  {
+    email: "john.martinez@email.com",
+    password: "john",
+    role: "client"
+  },
+  {
+    email: "ava.smith@email.com",
+    password: "ava",
+    role: "client"
+  },
+  {
+    email: "matthew.turner@email.com",
+    password: "matthew",
+    role: "client"
+  },
+  {
+    email: "mia.johnson@email.com",
+    password: "mia",
+    role: "client"
+  },
+  {
+    email: "christopher.clark@email.com",
+    password: "christopher",
+    role: "client"
+  },
+  {
+    email: "abigail.walker@email.com",
+    password: "abigail",
+    role: "client"
+  },
+  {
+    email: "william.davis@email.com",
+    password: "william",
+    role: "client"
+  },
+  {
+    email: "chloe.clark@email.com",
+    password: "chloe",
+    role: "client"
+  },
+  {
+    email: "samuel.davis@email.com",
+    password: "samuel",
+    role: "client"
+  },
+  {
+    email: "emily.turner@email.com",
+    password: "emily",
+    role: "client"
+  },
+  {
+    email: "alexander.lewis@email.com",
+    password: "alexander",
+    role: "client"
+  },
+  {
+    email: "timothy.florian@gmail.com",
+    password: "timothy",
+    role: "admin"
+  },
+  {
+    email: "jospar.millian@gmail.com",
+    password: "jospar",
+    role: "admin"
+  },
+  {
+    email: "prasanna.venkatesh@gmail.com",
+    password: "prasanna",
+    role: "admin"
+  }
+]);
